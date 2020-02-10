@@ -1,3 +1,5 @@
+kine: pipeline
+name: project2
 pipeline:
     project2-build:
       image: docker:18.09-dind
