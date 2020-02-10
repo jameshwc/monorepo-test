@@ -9,6 +9,6 @@ pipeline:
         # - DOCKER_HOST=tcp://docker:2375
       commands:
         - docker ps
-        - echo "hello"
+        - echo "Hello"
         - docker build -t project1 project1
     
