@@ -1,0 +1,12 @@
+pipeline:
+    project1-build:
+      image: docker:18.09-dind
+      volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
+      environment:
+        # - DOCKER_HOST=tcp://docker:2375
+      commands:
+        - docker ps
+        - echo "world"
+        - docker build -t . project1
+    
