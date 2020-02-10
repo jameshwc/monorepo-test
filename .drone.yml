@@ -8,6 +8,6 @@ pipeline:
         # - DOCKER_HOST=tcp://docker:2375
       commands:
         - docker ps
-        - echo "world"
+        - echo "world!"
         - docker build -t . project1
     
