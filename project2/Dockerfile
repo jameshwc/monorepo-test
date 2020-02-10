@@ -1,3 +1,3 @@
 FROM ubuntu:18.04
 
-RUN echo "Hello "
+RUN echo "Hello!"
