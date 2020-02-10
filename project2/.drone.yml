@@ -9,5 +9,5 @@ pipeline:
         # - DOCKER_HOST=tcp://docker:2375
       commands:
         - docker ps
-        - docker build -t . project2
+        - docker build -t project2 .
     
