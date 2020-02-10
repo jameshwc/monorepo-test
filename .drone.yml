@@ -1,4 +1,5 @@
 kind: pipeline
+name: default
 pipeline:
     project1-build:
       image: docker:18.09-dind
