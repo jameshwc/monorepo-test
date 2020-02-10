@@ -10,5 +10,5 @@ pipeline:
       commands:
         - docker ps
         - echo "world!"
-        - docker build -t project1 .
+        - docker build -t project1 project1
     
